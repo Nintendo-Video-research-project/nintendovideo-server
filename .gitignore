@@ -1,0 +1,17 @@
+# downloaded / generated data
+content/
+cache*/
+assets/
+state.json
+__pycache__/
+*.pyc
+
+# secrets and key material
+boss.key
+*.pem
+*.key
+
+# editor / backup leftovers
+*.bak*
+._*
+.DS_Store

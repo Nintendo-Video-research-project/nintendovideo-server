@@ -1,0 +1,12 @@
+[Unit]
+Description=Nintendo Video SpotPass server
+After=network-online.target
+
+[Service]
+WorkingDirectory=/opt/nintendovideo
+ExecStart=/usr/bin/python3 -u /opt/nintendovideo/server.py --port 80
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
