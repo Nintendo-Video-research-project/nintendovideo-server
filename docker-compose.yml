@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  nintendovideo:
+    build: .
+    container_name: nintendovideo-server
+    ports:
+      - "80:8000"
+    environment:
+      - NINTENDOVIDEO_BOSS_KEY=${NINTENDOVIDEO_BOSS_KEY}
+    volumes:
+      - ./content:/app/content
+      - ./assets:/app/assets
+      - ./cache:/app/cache
+      - ./state.json:/app/state.json
+      - ./boss.key:/app/boss.key
+    restart: unless-stopped
