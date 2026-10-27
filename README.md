@@ -31,6 +31,6 @@ Downloaded episodes (`content/`), built containers (`cache*/`), banner/thumbnail
 
 ## Credits
 - **Quatric** for developing the server infrastructure and micro documenting 
-- **OniOkami666** for their help with this project. Related work: [Nintendo-Video-research-project/Nintendo-Video-test-server](https://github.com/Nintendo-Video-research-project/Nintendo-Video-test-server), an experimental test server for distributing Nintendo Video files.
+- **OniOkami666** for their help with reverse engineering this project and documenting how it works. Related work: [Nintendo-Video-research-project/Nintendo-Video-test-server](https://github.com/Nintendo-Video-research-project/Nintendo-Video-test-server), an experimental test server for distributing Nintendo Video files.
 - [3dbrew](https://www.3dbrew.org/wiki/SpotPass) for the SpotPass / BOSS container documentation.
 - The archive.org "nintendo-video-moflex-archive" preservation of the episodes that `manage.py fetch` downloads.
