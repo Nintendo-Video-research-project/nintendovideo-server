@@ -23,7 +23,7 @@ Requires Python 3.10+ and `pycryptodome` (or `pycryptodomex`).
 
 ### BOSS key
 
-The BOSS content AES key (3DS keyslot `0x38`) is **not** included in this repository. Supply it as 32 hex digits either in a `boss.key` file next to `boss.py`, or in the `NINTENDOVIDEO_BOSS_KEY` environment variable (`NINTENDOVIDEO_BOSS_KEY_FILE` points at a different file). `boss.key` is git-ignored.
+The BOSS content AES key (3DS keyslot `0x38`) is **not** included in this repository. Supply it as 32 hex digits either in a `boss.key` file next to `boss.py`, or in the `NINTENDOVIDEO_BOSS_KEY` environment variable (`NINTENDOVIDEO_BOSS_KEY_FILE` points at a different file). `boss.key` is git-ignored.  However, you can get your boss key by using GodMode9
 
 ### What is not in the repo
 
